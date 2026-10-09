@@ -1,0 +1,69 @@
+// Coffee Theme Color Palette  (custom "café" remap of Gruvbox)
+
+// Red  (terra/terracota)
+$red-light: #b5533f;
+$red-dark: #d97a5c;
+
+// Pink  (rosé café)
+$pink-light: #a96f6f;
+$pink-dark: #cf9a8f;
+
+// Purple (uva café)
+$purple-light: #8f6b8f;
+$purple-dark: #c39ac0;
+
+// Blue  (azul-espresso)
+$blue-light: #4f6b78;
+$blue-dark: #7fa3ad;
+
+// Teal  (verde-café)
+$teal-light: #5c7a63;
+$teal-dark: #93b59a;
+
+// Green (oliva café)
+$green-light: #6e7a4c;
+$green-dark: #a9b672;
+
+// Yellow (latte / creme)
+$yellow-light: #b07d2b;
+$yellow-dark: #d9b878;
+
+// Orange (caramelo / café com leite)
+$orange-light: #b8631f;
+$orange-dark: #e0a86a;
+
+// Grey  ->  escala de café (do creme ao espresso)
+$grey-050: #f7efe3;   // espuma de leite
+$grey-100: #4e3d2a;   // latte claro
+$grey-150: #e6d2b5;   // latte
+$grey-200: #d8bfa0;   // crema
+$grey-250: #cbb294;   // bege café
+$grey-300: #bda184;   // caramelo claro
+$grey-350: #a98a6b;   // caramelo
+$grey-400: #8f7157;   // mocha claro
+$grey-450: #7c6150;   // mocha
+$grey-500: #6b4f3a;   // café com leite
+$grey-550: #4e3729;   // café forte
+$grey-600: #422e23;   // café
+$grey-650: #362620;   // mocha escuro
+$grey-700: #2a1e18;   // espresso (fundo de destaque)
+$grey-750: #261b15;
+$grey-800: #221812;
+$grey-850: #1e1510;
+$grey-900: #1a120d;
+$grey-950: #150e0a;
+
+// White
+$white: #f7efe3;
+
+// Black
+$black: #241a14;      // fundo das janelas/headerbar (espresso)
+
+// Theme  ->  acento caramelo/café
+$default-light: $orange-light;
+$default-dark: $orange-dark;
+
+// Button
+$button-close: if($topbar == 'light', #b5533f, #d97a5c);
+$button-max: if($topbar == 'light', #6e7a4c, #a9b672);
+$button-min: if($topbar == 'light', #b8631f, #e0a86a);
